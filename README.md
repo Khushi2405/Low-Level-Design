@@ -34,7 +34,7 @@ Each principle is accompanied by examples, diagrams, and code to illustrate its 
 ### 2. **Design Patterns**
 Design patterns are grouped by their categories:
 
-#### **Creational Patterns**
+#### 2.1 **Creational Patterns**
 Patterns that deal with object creation:
 <!-- - Singleton  -->
 - Factory Method  
@@ -42,7 +42,7 @@ Patterns that deal with object creation:
 <!-- - Builder  
 - Prototype --> 
 
-#### **Structural Patterns**
+#### 2.2 **Structural Patterns**
 Patterns that focus on the composition and structure of classes or objects:
 <!-- - Adapter  
 - Bridge  
@@ -52,7 +52,7 @@ Patterns that focus on the composition and structure of classes or objects:
 - Flyweight  
 - Proxy  -->
 
-#### **Behavioral Patterns**
+#### 2.3 **Behavioral Patterns**
 Patterns that manage communication and interaction between objects:
 <!-- - Chain of Responsibility  
 - Command  
@@ -83,6 +83,12 @@ Detailed low-level designs of real-world systems:
 - **Tic-Tac-Toe**  -->
 
 
+Each case study contains:
+- Problem statement.
+- Detailed system requirements.
+- Class diagrams and architecture.
+- Code implementations.
+
 ---
 ## 📂 Directory Structure
 
@@ -103,24 +109,13 @@ low-level-designs/
 │   │   ├── decorator/         # Decorator pattern
 │   └── behavioral/
 │       ├── observer/          # Observer pattern
-│       │   ├── observer.md    # Explanation and design details
-│       │   ├── observer.py    # Code implementation for Observer pattern
-│       │   └── observer.png   # Class diagram for Observer pattern
 │       ├── strategy/          # Strategy pattern
-│       │   ├── strategy.md    # Explanation and design details
-│       │   ├── strategy.py    # Code implementation for Strategy pattern
-│       │   └── strategy.png   # Class diagram for Strategy pattern
 ├── case_studies/
 │   ├── parking_lot/           # Parking Lot System
 
 
 ```
 
-Each case study contains:
-- Problem statement.
-- Detailed system requirements.
-- Class diagrams and architecture.
-- Code implementations.
 
 ## 🛠️ Getting Started
 
