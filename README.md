@@ -82,13 +82,45 @@ Detailed low-level designs of real-world systems:
 - **Chess Game**  
 - **Tic-Tac-Toe**  -->
 
+
+---
+## 📂 Directory Structure
+
+```plaintext
+low-level-designs/
+├── README.md                 # Main repository overview and documentation
+├── LICENSE                   # License file (MIT)
+├── solid_principles/
+│   ├── single_responsibility/ # Single Responsibility Principle
+│   ├── open_closed/           # Open/Closed Principle
+│   ├── liskov_substitution/   # Liskov Substitution Principle
+│   ├── interface_segregation/ # Interface Segregation Principle
+│   └── dependency_inversion/  # Dependency Inversion Principle
+├── design_patterns/
+│   ├── creational/
+│   │   ├── factory/           # Factory pattern
+│   ├── structural/
+│   │   ├── decorator/         # Decorator pattern
+│   └── behavioral/
+│       ├── observer/          # Observer pattern
+│       │   ├── observer.md    # Explanation and design details
+│       │   ├── observer.py    # Code implementation for Observer pattern
+│       │   └── observer.png   # Class diagram for Observer pattern
+│       ├── strategy/          # Strategy pattern
+│       │   ├── strategy.md    # Explanation and design details
+│       │   ├── strategy.py    # Code implementation for Strategy pattern
+│       │   └── strategy.png   # Class diagram for Strategy pattern
+├── case_studies/
+│   ├── parking_lot/           # Parking Lot System
+
+
+```
+
 Each case study contains:
 - Problem statement.
 - Detailed system requirements.
 - Class diagrams and architecture.
 - Code implementations.
-
----
 
 ## 🛠️ Getting Started
 
