@@ -29,7 +29,7 @@ A dedicated section for Object-Oriented Design principles, including:
   - **I**: Interface Segregation Principle  
   - **D**: Dependency Inversion Principle  
 
-Each principle is accompanied by examples, diagrams, and code to illustrate its importance and application.
+Each principle is accompanied by explanation, examples, and code to illustrate its importance and application.
 
 ### 2. **Design Patterns**
 Design patterns are grouped by their categories:
@@ -135,6 +135,14 @@ Contributions are welcome! Feel free to:
 - Submit pull requests for your designs.
 
 ---
+
+## 📹 Credits
+This project was inspired by the following YouTube playlist:
+
+- [Low Level Design from Basics to Advanced](https://www.youtube.com/playlist?list=PL6W8uoQQ2c61X_9e6Net0WdYZidm7zooW) by [Concept && Coding - by Shrayansh](https://www.youtube.com/@ConceptandCoding)
+
+I used the content from this playlist to help guide the implementation of various concepts and design patterns in this repository. A big thank you to the creator for providing such valuable resources!
+
 
 ## 📄 License
 
