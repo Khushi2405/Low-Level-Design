@@ -1,6 +1,6 @@
 # Single Responsibility Principle (SRP)
 
-The **Single Responsibility Principle (SRP)** is one of the five principles in SOLID, a set of object-oriented design principles that promote cleaner, more maintainable code. SRP states that:
+The **Single Responsibility Principle (SRP)** states that:
 
 > **"A class should have only one reason to change, meaning that it should have only one responsibility."**
 
@@ -86,6 +86,12 @@ public class Marker {
 
 // Class responsible for printing the invoice
 public class InvoicePrinter {
+    Marker marker;
+    
+    public InvoicePrinter(Marker marker){
+        this.marker = marker;
+    }
+    
     public void printInvoice(Marker marker) {
         System.out.println("Printing invoice for " + marker.getQuantity() + "marker" + (marker.getQuantity() > 1 ? "s" : ""));
         System.out.println("Total: " + marker.calculateTotal());
@@ -94,6 +100,11 @@ public class InvoicePrinter {
 
 // Class responsible for saving the invoice to the database
 public class InvoiceRepository {
+    Marker marker; 
+    
+    public InvoiceRepository(Marker marker){
+        this.marker = marker;
+    }
     public void saveToDatabase(Marker marker) {
         // Code to save invoice to the database
         System.out.println("Saving invoice to database...");
